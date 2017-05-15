@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Near By Restaurant</string>
+
+    <!--    Yelp Sdk constants  -->
+
+    <string name="yelp_consumer_key">-_aCFGTXNrALziqFobXipA</string>
+    <string name="yelp_consumer_secret">fffQpImOcJEOJvFiOtwgfrMC6f0</string>
+    <string name="yelp_token">r93XRyXhbph9gteXcWSnK47qTwZAsO_H</string>
+    <string name="yelp_token_secret">Mnca05Icgf6gG1m51KoCQUM0rwY</string>
+
+    <!--    Google Map  -->
+
+    <string name="google_maps_key">AIzaSyC8tLumITQSzNms5gkRari_oZIfhGDqiQ8</string>
+
+    <!--    Map Screen  -->
+
+    <string name="scree_title_map">Near By Restaurant</string>
+
+    <string name="dialog_message_request_gps">You need to turn on location service. Do you want to turn on GPS?</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+
+    <string name="map_address_label">Address : </string>
+    <string name="map_rating_label">Ratings : </string>
+
+    <!--    Business Detail Screen  -->
+
+    <string name="screen_title_business_detail">Business Detail</string>
+
+    <string name="business_phone_label">Phone : </string>
+    <string name="business_review_label">Reviews</string>
+    <string name="business_review_view_all_label"><u>View All</u></string>
+
+    <!--    General text    -->
+
+    <string name="error_internet_unavailable">Please check your internet connection.</string>
+
+    <string name="not_available_label">Not Available</string>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--    Margins -->
+
+    <dimen name="margin_xxxSmall">2dp</dimen>
+    <dimen name="margin_xxSmall">4dp</dimen>
+    <dimen name="margin_xSmall">8dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xLarge">24dp</dimen>
+    <dimen name="margin_xxLarge">28dp</dimen>
+    <dimen name="margin_xxxLarge">32dp</dimen>
+
+    <!--    Font size   -->
+
+    <dimen name="font_xxSmall">10sp</dimen>
+    <dimen name="font_xSmall">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_xLarge">20sp</dimen>
+    <dimen name="font_xxLarge">22sp</dimen>
+
+    <!--    App's different view's height width -->
+
+    <dimen name="app_divider_height">1dp</dimen>
+
+    <dimen name="app_progress_view_height_width">120dp</dimen>
+    <dimen name="map_view_image_height_width">60dp</dimen>
+
+    <dimen name="business_detail_image_height_width">90dp</dimen>
+    <dimen name="business_review_user_pic_height_width">60dp</dimen>
+</resources>
