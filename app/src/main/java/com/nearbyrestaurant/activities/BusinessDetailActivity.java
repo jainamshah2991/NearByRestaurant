@@ -105,7 +105,7 @@ public class BusinessDetailActivity extends BaseActivity implements BusinessDeta
         /*  Set image   */
         if (!TextUtils.isEmpty(business.imageUrl()))
             Picasso.with(this).load(business.imageUrl()).placeholder(R.drawable.ic_place_holder)
-                    .centerCrop().into(ivBusinessPic);
+                    .into(ivBusinessPic);
         else
             ivBusinessPic.setImageResource(R.drawable.ic_place_holder);
 
@@ -131,7 +131,7 @@ public class BusinessDetailActivity extends BaseActivity implements BusinessDeta
 
                     if (!TextUtils.isEmpty(review.user().imageUrl()))
                         Picasso.with(this).load(review.user().imageUrl()).placeholder(R.drawable.ic_place_holder)
-                                .centerCrop().into(ivReviewUserPic);
+                                .into(ivReviewUserPic);
                     else
                         ivReviewUserPic.setImageResource(R.drawable.ic_place_holder);
 

@@ -202,7 +202,7 @@ public class MapActivity extends BaseActivity implements MapContract.View, OnMap
                     /*  Set image   */
                     if (!TextUtils.isEmpty(business.imageUrl()))
                         Picasso.with(MapActivity.this).load(business.imageUrl()).placeholder(R.drawable.ic_place_holder)
-                                .centerCrop().into(ivBusinessPic);
+                                .into(ivBusinessPic);
                     else
                         ivBusinessPic.setImageResource(R.drawable.ic_place_holder);
 
