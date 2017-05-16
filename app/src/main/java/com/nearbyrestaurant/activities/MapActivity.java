@@ -199,6 +199,7 @@ public class MapActivity extends BaseActivity implements MapContract.View, OnMap
                     else
                         tvBusinessAddress.setText(getResources().getString(R.string.not_available_label));
 
+
                     /*  Set image   */
                     if (!TextUtils.isEmpty(business.imageUrl()))
                         Picasso.with(MapActivity.this).load(business.imageUrl()).placeholder(R.drawable.ic_place_holder)

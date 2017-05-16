@@ -79,6 +79,7 @@ public class BusinessDetailActivity extends BaseActivity implements BusinessDeta
         if (getIntent() != null && getIntent().hasExtra(AppConstant.INTENT_KEY_BUSINESS_ID)) {
             businessDetailPresenter.getBusinessDetailFromServer(getIntent().getStringExtra(AppConstant.INTENT_KEY_BUSINESS_ID));
         }
+
     }
 
     @Override
